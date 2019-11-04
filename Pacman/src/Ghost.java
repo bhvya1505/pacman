@@ -261,7 +261,7 @@ public class Ghost {
                 else if(map[ver+1][hor]!='1')
                     decision=DOWN;
                 else if(map[ver][hor]!='1')
-                    decision=UP;
+                    decision=LEFT;
             }else if(decision==DOWN && map[ver+1][hor]=='1'){
                 if(map[ver][hor-1]!='1')
                     decision=LEFT;
